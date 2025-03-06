@@ -12,7 +12,6 @@ const io = new Server(server);
 
 const PORT = 3000;
 
-
 // Serve a simple HTML page for the client (for testing)
 app.get('/', (req, res) => {
     res.send(`
